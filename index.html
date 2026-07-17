@@ -1,0 +1,252 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+
+
+<header>
+  <div class="container navwrap">
+    <div class="logo">EDITKARO<span class="dot"></span></div>
+    <nav class="mainlinks" id="mainNav">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="btn-pill-white navRight-cta">Start A Project</a>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+
+  <div class="grade-panel">
+    <div class="wheels"><div class="wheel"></div><div class="wheel"></div><div class="wheel"></div><div class="wheel"></div></div>
+    <div class="curve">
+      <svg viewBox="0 0 400 70" preserveAspectRatio="none"><path d="M0,60 C80,55 140,15 220,20 C300,25 340,5 400,2" fill="none" stroke="#ff2b2b" stroke-width="2"/></svg>
+    </div>
+    <div class="bars">
+      <span style="height:40%"></span><span style="height:70%"></span><span style="height:30%"></span>
+      <span style="height:85%"></span><span style="height:55%"></span><span style="height:65%"></span>
+      <span style="height:20%"></span><span style="height:75%"></span><span style="height:45%"></span>
+      <span style="height:60%"></span>
+    </div>
+  </div>
+
+  <div class="container hero-content">
+    <div class="eyebrow">A Social Media &amp; Video Editing Studio</div>
+    <h1 class="disp headline">Cuts That Move <span class="accent-italic">People</span></h1>
+    <p class="hero-sub">We craft cinematic edits, ads and shorts for creators, athletes, brands and studios — engineered for attention on every feed.</p>
+    <div class="hero-actions">
+      <a href="#work" class="reel-btn">
+        <span class="reel-ring"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        View The Reel
+      </a>
+      <a href="#contact" class="btn-outline-pill">
+        Book A Call
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="stats-strip">
+  <div class="container stats-grid">
+    <div class="stat-item">
+      <div class="stat-num">420+</div>
+      <div class="stat-label">Edits Delivered</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">48h</div>
+      <div class="stat-label">Avg. Turnaround</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">62M+</div>
+      <div class="stat-label">Views Generated</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">12</div>
+      <div class="stat-label">Countries</div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<section class="work-section container" id="work">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">Selected Work</div>
+      <h2 class="disp">The Reel Room</h2>
+    </div>
+    <p class="headnote">A curated cut across formats — shorts to docs, ads to AMVs. Filter by category or scroll the bento.</p>
+  </div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="bento" id="bentoGrid"></div>
+</section>
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:0;">
+      <div>
+        <div class="eyebrow">What We Edit</div>
+        <h2 class="disp">Services</h2>
+      </div>
+      <p class="headnote">A full-stack editing crew — we cover every format your feed, funnel and stadium screen demands.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-img">
+      <img src="about-photo.jpg" alt="Editkaro.in studio" onerror="this.style.display='none'">
+      <div class="about-cap">Est. 2026 · India</div>
+    </div>
+    <div>
+      <div class="eyebrow">About Editkaro</div>
+      <h2 class="disp">A Studio Of<br><span class="accent-italic">Editors, Not Renderers</span></h2>
+      <p class="lead">Editkaro.in is a boutique post-production studio built for the algorithm era. We obsess over the first three seconds, the color of skin tones, the punch of a kick drum on a match cut. Every edit ships with intent — for feeds, funnels and the big screen.</p>
+      <div class="about-stats">
+        <div class="stat"><h4>Retention-First</h4><p>We design hooks &amp; pacing around watch-time analytics.</p></div>
+        <div class="stat"><h4>Filmic Craft</h4><p>Grade, sound and typography at cinema-grade quality.</p></div>
+        <div class="stat"><h4>Fast, Not Rushed</h4><p>48–72h average turnaround, without compromising taste.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="eyebrow">Client Voices</div>
+    <h2 class="disp">Kind Words</h2>
+    <div class="t-grid" id="testimonialGrid"></div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-left">
+      <div class="eyebrow">Start A Project</div>
+      <h2 class="disp">Let's Cut Something <span class="accent-italic">Unforgettable</span></h2>
+      <p class="lead">Tell us about the project. We'll get back within 24 hours with a short discovery call.</p>
+      <div class="contact-meta">
+        <div><span class="label">Email</span><a href="mailto:hello@editkaro.in">hello@editkaro.in</a></div>
+        <div><span class="label">Instagram</span><a href="#">@editkaro.in</a></div>
+      </div>
+    </div>
+
+    <form class="project-form" id="projectForm">
+      <div class="form-row">
+        <div class="field">
+          <label>Your Name <span class="req"></span></label>
+          <input type="text" placeholder="Kiran Rao" required>
+        </div>
+        <div class="field">
+          <label>Email <span class="req"></span></label>
+          <input type="email" placeholder="you@studio.com" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field select-wrap">
+          <label>Project Type</label>
+          <select>
+            <option value="">Select a category</option>
+            <option>Short-Form</option>
+            <option>Long-Form</option>
+            <option>Gaming</option>
+            <option>Football</option>
+            <option>Ecommerce</option>
+            <option>Documentary</option>
+            <option>Color Grading</option>
+            <option>Anime</option>
+            <option>Ads</option>
+          </select>
+        </div>
+        <div class="field select-wrap">
+          <label>Budget</label>
+          <select>
+            <option value="">Select a range</option>
+            <option>Under ₹10,000</option>
+            <option>₹10,000 – ₹30,000</option>
+            <option>₹30,000 – ₹75,000</option>
+            <option>₹75,000+</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label>Tell Us About It <span class="req"></span></label>
+        <textarea rows="3" placeholder="Deliverables, deadlines, references..." required></textarea>
+      </div>
+      <div class="submit-row">
+        <button type="submit" class="btn-pill-white">
+          Send Message
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </button>
+        <span class="form-msg" id="formMsg"></span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <h2 class="disp">Let's <span class="accent-italic">Create.</span></h2>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="brand">Editkaro.in</div>
+        <p>Post-production for the algorithm era.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@editkaro.in">hello@editkaro.in</a>
+        <p style="margin-top:-6px;">Mon – Sat · 10:00 – 20:00 IST</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sitemap</h4>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="4"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="mailto:hello@editkaro.in" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Editkaro.in — All rights reserved.</span>
+      <span>Crafted with taste in Mumbai · India</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <div class="lb-inner">
+    <div class="lb-top">
+      <span class="tag" id="lbTag">Category</span>
+      <button class="lb-close" id="lbClose">✕</button>
+    </div>
+    <video id="lbVideo" controls preload="none"></video>
+    <div class="lb-cap">
+      <h3 id="lbTitle">Title</h3>
+      <p id="lbMeta">Meta</p>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
